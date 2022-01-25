@@ -16,6 +16,8 @@ body {
     background-color: var(--preto);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    text-align: center;
+    margin-top: 5px;
 }
 
 header .container {
@@ -52,10 +54,11 @@ header nav a:hover {
     justify-content: center;
     align-items: flex-start;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    text-align: left;
 }
 
 .filme-principal .titulo {
-    font-size: 40px;
+    font-size: 40px;   
 }
 
 .filme-principal .informacoes {
@@ -101,6 +104,11 @@ header nav a:hover {
 .conteudo .titulo {
     font-size: 20px;
     padding: 10px;
+    text-align: left;
+}
+
+.conteudo a img {
+    margin-bottom: 5px;
 }
 
 .conteudo a img:hover {
