@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(240, 183, 193);
+    font-family: cursive;
+}
+
+caption {
+    font-size: 25px;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 1px;
+    text-align: left;
+    line-height: 1.5em;
+    border: 1px solid rgb(230, 209, 209);
+}
+
+th {
+    text-align: center;
+    background-color: rgb(230, 209, 209);
+}
+
+.form {
+    padding: 10px;
+    margin: 50px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style: groove;
+    max-width: 400px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.resultado {
+    background-color: rgb(240, 183, 193);
+    border-radius: 5px;
+}

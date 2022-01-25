@@ -1,0 +1,117 @@
+/*Variaveis*/
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+/*Zerando o CSS padrão*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos do Menu*/
+body {
+    background-color: var(--preto);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 25px;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+/*Filme principal*/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(to left, transparent, rgb(0, 0, 0, 0.9) 80%), url('../img/capa-vikings2.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.filme-principal .titulo {
+    font-size: 40px;
+}
+
+.filme-principal .informacoes {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.filme-principal .descricao {
+    width: 35%;
+    font-size: 15px;
+}
+
+.botao {
+    background-color: transparent;
+    border: 1px solid #AAA;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #AAA;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    opacity: 1;
+    background-color: var(--vermelho);
+    border: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.botao i {
+    margin-right: 3px;
+}
+
+/*Conteúdo*/
+.conteudo {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.conteudo .titulo {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.conteudo a img:hover {
+    border: 1px solid #AAA;
+    cursor: pointer;
+}
+
+/*Footer*/
+footer {
+    background-color: var(--preto);
+    color: #AAA;
+    padding: 5px;
+    text-align: center;
+}

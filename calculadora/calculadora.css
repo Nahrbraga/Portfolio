@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(224, 219, 219);
+}
+
+.section {
+    background-color: rgb(170, 160, 160);
+    border-radius: 5px;
+    height: 350px;
+    width: 450px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.calculadora {
+    width: 100%;
+}
+
+.display {
+    font-size: 2em;
+    width: 98%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border: none;
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #a39d9d;
+}
